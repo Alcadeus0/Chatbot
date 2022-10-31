@@ -82,13 +82,13 @@ class Chatbot extends JFrame {
                         }
 					}
 					else if(text.contains("2")) {
-						replyMeth("We currently have a winter training program ongoing. Registrations are available.");
+						replyMeth("We currently have a winter training program ongoing. Registrations will be open soon. Call +91 23456432 to know more!");
 					}
-					else if(text.contains("bye")) {
-						replyMeth("Too Soon :( AnyWays"+"\n"+"STAY HOME STAY SAFE ");
-					}
+                    else if(text.contains("3")){
+                        replyMeth("I am a Robot created with the Java Programming Language. I can understand your text and help you get better at studying");
+                    }
 					else 
-						replyMeth("I Can't Understand");
+						replyMeth("I Can't Understand. Enter again or try a different word");
 					
 				}
 							
